@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(235, 234, 234);
+}
+.wholepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#smallimage{
+    border: 3px solid black;
+}
+.imagecontainer{
+    display: flex;
+    max-height: 600px;
+    margin-top:2%;
+    flex:3;
+}
+.buttons{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: orange;
+    color: black;
+    border: 0;
+    width:220px;
+    padding: 15px 60px;
+    font-weight: bold;
+    color: #cc5500;
+}
+.smallimage1{
+    display: block;
+    height: 20%;
+}
+#productimage{
+    height: fit-content;
+}
+.productpage{
+    background-color: white;
+    max-width: 91%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.descriptionbox{
+    flex: 2;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.company{
+    margin-bottom: 2%;
+    font-size: 1em  ;
+    color: gray;
+    font-family:Inter,-apple-system,Helvetica,Arial,sans-serif;
+}
+.productname{
+    text-wrap: nowrap;
+    font-size: 1.5em;
+    font-family:Inter,-apple-system,Helvetica,Arial,sans-serif;
+}
+.sp{
+    font-size: .6em;
+    color: rgb(7, 156, 7);
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.pricecontainer{
+    margin-top: 2%;
+    margin-bottom: .5%;
+}
+.discountprice{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.ogprice{
+    font-size: .7em;
+    text-decoration: line-through;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.box{
+    padding: .4%;
+    background-color: rgb(9, 177, 9);
+    border-radius: 10px;
+    border: 1px solid rgb(9, 177, 9);
+    margin-right: 1.5%;
+    font-size: .9em;
+    font-weight: bold;
+    color: white;
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;;
+}
+.ratings{
+    color: gray;
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+    font-size: .7em;
+    font-weight: bold;
+}
+.quality{
+    text-wrap: wrap;
+}
+.sizes{
+    display: flex;
+    flex-direction: row;
+}
+.S{
+    border: 2px solid rgb(202, 199, 199);
+    font-size: 1.7em;
+    padding: 1%;
+    text-decoration: none;
+    margin: 6px;
+    color: black;
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.S:hover{
+    color: blue;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+.type{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.types{
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif; 
+    font-weight: bold;
+    font-size: .8em;
+    color: gray;
+}
+.detail{
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+    font-size: .8em;
+}
+.items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 91%;
+    background-color: white;
+}
+.heading{
+    width: 100%;
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    font-size: 2em;
+}
+.relatedproducts{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+.p{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}
+.products{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    height: 100%;
+    text-decoration: none;
+}
+.pimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3.5;
+}
+.pdiscription{
+    flex: .8;
+}
+.cname{
+    font-size: 1em;
+    color: gray;
+    font-family:Inter,-apple-system,Helvetica,Arial,sans-serif;
+}
+.pspecial{
+    font-size: .6em;
+    color: rgb(7, 156, 7);
+    font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.pname{
+    color: black;
+    text-wrap: nowrap;
+    font-size: 1em;
+    font-family:Inter,-apple-system,Helvetica,Arial,sans-serif;
+}
+.amount{
+
+    margin-top: 1%;
+    margin-bottom: .5%;
+}
+.dprice{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+.oprice{
+    color: black;
+    font-size: .7em;
+    text-decoration: line-through;
+}

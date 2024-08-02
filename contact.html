@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header -->
+<header>
+    <div class="top">
+        <div class="buttoncontainer">
+            <div class="logo">
+                <div class="image">
+                <img src="logomain-removebg-preview.png" height="90px">
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="contact">
+                    <a href="index.html" class="links">Home</a>
+                </div>
+                <div class="contact">
+                    <a href="contact.html" class="links">contact</a>
+                </div>
+                <div class="contact">
+                    <a href="about.html" class="links">about</a>
+                </div>
+                <div class="contact">
+                    <a href="cart.html" class="links">cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- main -->
+<div class="cheading">
+    <span class="conheading">
+        GET IN TOUCH
+    </span>
+    <div class="contactcontainer">
+        <div class="conitem">
+            <img src="address.jpg" class="conimage">
+            <div class="bigheading">
+                ADDRESS
+            </div>
+            <div class="smallheading">
+                HEAD OFFICE
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet. Est tenetur assumenda est blanditiis laudantium est excepturi nisi qui voluptas temporibus ea quae dolorem est minus provident id voluptatem unde? Non omnis quidem et molestiae possimus est totam obcaecati non amet dolorem qui dolorem sequi eos iste accusantium non molestiae distinctio!
+            </div>
+            <div class="smallheading">
+                FRANCHISE
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet. Est tenetur assumenda est blanditiis laudantium est excepturi nisi qui voluptas temporibus ea quae dolorem est minus provident id voluptatem unde? Non omnis quidem et molestiae possimus est totam obcaecati non amet dolorem qui dolorem sequi eos iste accusantium non molestiae distinctio!
+            </div>
+        </div>
+        <div class="conitem">
+            <img src="phone.jpg" class="conimage">
+            <div class="bigheading">
+                PHONE
+            </div>
+            <div class="smallheading">
+                FOR COMPLAINT PLEASE CONTACT:
+            </div>
+            <div class="content">
+                <span>
+                +91 9724572972
+                </span>
+                <span>
+                +91 562246
+                </span>
+            </div>
+            <div class="smallheading">
+                HR MANAGER
+            </div>
+            <div class="content">
+                +91 8473392933
+            </div>
+            <div class="smallheading">
+                CUSTOMER CARE
+            </div>
+            <div class="content">
+                <span>
+                +91 1800-7854-0055
+                </span>
+                <span>
+                (TOLL FREE NUMBER)
+                </span>
+            </div>
+        </div>
+        <div class="conitem">
+            <img src="email.webp" alt="" class="conimage">
+            <div class="bigheading">
+                EMAIL
+            </div>
+            <div class="smallheading">
+                SERVICE ISSUE 
+            </div>
+            <div class="content">
+                XAKF@gmail.com
+            </div>
+            <div class="smallheading">
+                TECHNICAL ISSUE
+            </div>
+            <div class="content">
+                FKAGFGAGB@gmail.com
+            </div>
+            <div class="smallheading">
+                HR DEPARTMENT
+            </div>
+            <div class="content">
+                HR12@gmail.com
+            </div>
+        </div>
+    </div>
+</div>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="india">INDIA</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label>Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" id="submitted" value="Submit">
+    <script>
+        let submitted = document.getElementById("submitted")
+
+        submitted.addEventListener("click",()=>{
+            alert("Thank you for Your valuable time and we will get back to you ASAP")
+        })
+    </script>
+  </form>
+</div>
+</body>
+</html>

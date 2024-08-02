@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="orderpage">
+    <div class="summarycontainer">
+        <div class="ordercontainer">
+            <div class="title">
+                ORDER NUMBER:
+            </div>
+            <div class="maincontent">
+                616515xxxxxxx1651
+            </div>
+        </div>
+        <div class="ordercontainer">
+            <div class="title">
+                NUMBER OF ITEMS:
+            </div>
+            <div class="maincontent">
+                xx
+            </div>
+        </div>
+        <div class="ordercontainer">
+            <div class="title">
+                TOTAL AMOUNT(Without discount):
+            </div>
+            <div class="maincontent">
+                xxxx
+            </div>
+        </div>
+        <div class="ordercontainer">
+            <div class="title">
+                DISCOUNT:
+            </div>
+            <div class="maincontent">
+                xxx
+            </div>
+        </div>
+        <div class="line">......................................................................................................................................................................................................................................</div>
+        <div class="ordercontainer">
+            <div class="title">
+                TOTAL AMOUNT PAYABLE:
+            </div>
+            <div class="maincontent">
+                xxx
+            </div>
+        </div>
+        <button id="done"><a href="index.html" id="button-link">Confirm Order</a></button>
+    <script>
+        
+        let placed = document.getElementById("done")
+        
+        placed.addEventListener("click",()=>{
+            alert("your order has been placed");
+        })
+            </script>
+        </div>
+    </div>
+</div>
+</body>
+</html>
